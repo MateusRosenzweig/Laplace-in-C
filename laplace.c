@@ -46,8 +46,10 @@ int main(void){
 
     int m[20][20];
     int n;
+    printf("Tamanho matriz:");
     scanf("%d", &n);
 
+    printf("Matriz:");
     for(int i = 0; i < n; i++){
         for(int j = 0; j < n; j++){
             scanf("%d", &m[i][j]);
